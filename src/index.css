@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Franie;
+  src: url(./assets/fonts/Franie-Regular.ttf);
+}
+@font-face {
+  font-family: Satoshi;
+  src: url(./assets/fonts/Satoshi-Variable.ttf);
+}
+
+.franie {
+  font-family: Franie;
+}
+
+html {
+  font-family: Satoshi;
+}
+
+body {
+  cursor: url(assets/brush.png), auto;
+}
